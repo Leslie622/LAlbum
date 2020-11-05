@@ -1,0 +1,10 @@
+<view class="albumList">
+  <view class="albumItem" wx:for="{{cateList}}"  wx:key="id">
+    <image wx:if="{{item.cover}}" src="https://mdw.oss-cn-hangzhou.aliyuncs.com/{{item.cover}}" class="item_cover" lazy-load="{true}"
+      mode="aspectFill" />
+    <view class="item_content">
+      <view class="item_content_title">{{item.name}}</view>
+      <view class="item_content_count">{{item.blogs.length}}张</view>
+    </view>
+  </view>
+</view>

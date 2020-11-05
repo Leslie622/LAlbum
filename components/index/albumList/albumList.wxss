@@ -1,0 +1,39 @@
+.albumList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 25rpx 25rpx 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.albumItem {
+  width: 45vw;
+  margin-bottom: 25rpx;
+  overflow: hidden;
+}
+
+.item_cover {
+  width: 100%;
+  height: 45vw;
+  border-radius: 20rpx;
+}
+
+.item_content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 5rpx;
+}
+
+.item_content_title {
+  font-size: 32rpx;
+  font-weight: 1000;
+  margin-bottom: 10rpx;
+}
+
+.item_content_count {
+  font-size: 25rpx;
+  color: #999;
+}
