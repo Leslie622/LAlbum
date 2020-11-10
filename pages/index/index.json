@@ -1,6 +1,9 @@
 {
-  "component":true,
+  "component": true,
   "usingComponents": {
-    "albumList":"/components/index/albumList/albumList"
-  }
+    "albumList": "/components/index/albumList/albumList",
+    "addPicture": "/components/index/addPicture/addPicture",
+    "myNavigation": "/components/index/myNavigation/myNavigation"
+  },
+  "navigationStyle": "custom"
 }

@@ -1,0 +1,60 @@
+.addPicture_btn {
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 130rpx;
+  width: 130rpx;
+  bottom: 60rpx;
+  right: 70rpx;
+  background-color: rgba(45, 85, 245, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .2), 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+.icon-iconjia {
+  font-size: 50rpx;
+  color: white;
+}
+
+.addPicture_popUp {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  z-index: 1;
+  border-radius: 25rpx;
+  overflow: hidden;
+  background-color: rgb(248,248,248);
+  transition: all .2s;
+}
+
+.addPicture_popUp > button{
+  font-size: 25rpx;
+  width: 100%;
+  border-radius: 0;
+  padding: 30rpx 0;
+  background-color: white;
+}
+
+.addPicture_popUp .closePopup{
+  margin-top: 20rpx;
+}
+
+.addPicture_mask{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 120vh;
+  transition: all .2s;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.close .addPicture_mask{
+  pointer-events: none;
+  opacity: 0;
+}
+
+.close .addPicture_popUp{
+  transform: translateY(100%);
+}
+

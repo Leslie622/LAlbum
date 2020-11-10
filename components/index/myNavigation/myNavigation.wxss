@@ -1,0 +1,9 @@
+.myNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 48px;
+  font-size: 30rpx;
+  background-color: red;
+}

@@ -5,5 +5,8 @@ import {
 
 
 Page({
-  
+  onLoad() {
+
+  }
+
 })

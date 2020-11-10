@@ -1,0 +1,13 @@
+<view class="{{isClose?'close':''}}" >
+  <view class="addPicture_btn" bindtap="switchPopUp">
+    <text class="iconfont icon-iconjia"></text>
+  </view>
+  <view class="addPicture_popUp">
+    <button>上传照片</button>
+    <button>上传视频</button>
+    <button>导入微信照片</button>
+    <button>导入微信视频</button>
+    <button class="closePopup" bindtap="switchPopUp">取消</button>
+  </view>
+  <view class="addPicture_mask" bindtap="switchPopUp"></view>
+</view>

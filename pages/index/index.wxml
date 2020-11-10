@@ -1,2 +1,4 @@
+<myNavigation></myNavigation>
 <view class="title">我的相册</view>
 <albumList></albumList>
+<addPicture></addPicture>

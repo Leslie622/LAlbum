@@ -1,0 +1,2 @@
+<view class="statusBar" style="height:{{statusBarHeight}}px"></view>
+<view class="myNavigation">风物颂</view>
