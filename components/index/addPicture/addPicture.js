@@ -16,7 +16,11 @@ Component({
       setTimeout(() => {
         wx.chooseImage({
           success(res) {
-            console.log(res);
+            wx.navigateTo({
+              url:'/pages/uploadPix/uploadPix',//跳转页面的路径，可带参数？隔开，不同参数用 & 分隔；相对路径，不需要.wxml后缀
+              success:function(){}       
+               
+          })
           }
         })
       }, 200)

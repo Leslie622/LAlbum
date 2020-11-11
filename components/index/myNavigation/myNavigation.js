@@ -1,25 +1,20 @@
 // components/index/myNavigation/myNavigation.js
 Component({
-
+  properties: {
+    navigationTitle: {
+      type:String
+    }
+  },
   data: {
-    statusBarHeight:""
+    statusBarHeight: ""
   },
   lifetimes: {
-    ready: function() {
-    //   var query = this.createSelectorQuery();
-    //   // query.select('.aaa').context(function (res) {
-    //   //   console.log(res)
-    //   // }).exec();
-    //   query.select('.aaa').fields({
-    //     computedStyle: ['margin', 'backgroundColor'],
-    //   }, function (res) {
-    //     console.log(res);
-    //   }).exec()
+    ready: function () {
       let sysinfo = wx.getSystemInfoSync();
       this.setData({
-        statusBarHeight:sysinfo.statusBarHeight
+        statusBarHeight: sysinfo.statusBarHeight
       })
-      
+
     }
   },
 

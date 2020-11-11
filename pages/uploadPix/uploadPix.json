@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "myNavigation": "/components/index/myNavigation/myNavigation"
+  },
+  "navigationStyle": "custom"
+}

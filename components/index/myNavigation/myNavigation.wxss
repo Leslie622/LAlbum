@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
   width: 100vw;
   height: 48px;
-  font-size: 27rpx;
+  font-size: 30rpx;
 }

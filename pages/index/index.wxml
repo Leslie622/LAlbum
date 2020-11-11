@@ -1,4 +1,4 @@
-<myNavigation></myNavigation>
+<myNavigation navigationTitle="风物颂"></myNavigation>
 <view class="title">我的相册</view>
 <albumList></albumList>
 <addPicture></addPicture>
