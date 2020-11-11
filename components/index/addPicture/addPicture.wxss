@@ -30,10 +30,16 @@
 
 .addPicture_popUp > button{
   font-size: 25rpx;
+  font-weight: 200;
   width: 100%;
   border-radius: 0;
   padding: 30rpx 0;
+  border-bottom: 1px solid #eee;
   background-color: white;
+}
+
+.addPicture_popUp > button:last-child{
+  border-top:1px solid #eee;
 }
 
 .addPicture_popUp .closePopup{
@@ -46,7 +52,7 @@
   width: 100vw;
   height: 120vh;
   transition: all .2s;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .close .addPicture_mask{
